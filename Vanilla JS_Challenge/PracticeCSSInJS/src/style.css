@@ -1,0 +1,20 @@
+body {
+    background-color: tomato;
+  }
+  
+  h1 {
+    color: beige;
+  }
+  
+  .active1 {
+    background-color: cornflowerblue;
+  }
+  
+  .active2 {
+    background-color: tomato;
+  }
+  
+  .active3 {
+    background-color: gold;
+  }
+  
