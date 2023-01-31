@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Casino</title>
+  </head>
+  <body>
+    <h1>Random Number Game</h1>
+    <h3>Generate a Number between 0 and <span class="maxNum"></span></h3>
+    <form class="gameForm">
+      <input type="number" min="0" max="200" />
+    </form>
+    <div class="guessNum">
+      Guess the number:
+      <form class="numForm">
+        <input class="inputNum" type="number"/>
+        <button>play!</button>
+      </form>
+    </div>
+    <div class="hiddenChose"></div>
+    <h4 class="hiddenResult"></h4>
+    <script src="./app.js"></script>
+  </body>
+</html>
