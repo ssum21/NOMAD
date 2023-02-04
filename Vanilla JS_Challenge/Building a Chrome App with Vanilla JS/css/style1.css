@@ -1,0 +1,93 @@
+h1 {
+    color: #ecf0f1;
+    transition: color 0.5s ease-in-out;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 50px;
+    /* 컬러가 바뀔때 0.5초정도 시간을 두고 자연스럽게 바뀌게 하는 효과 */
+}
+  
+body {
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.js-clock {
+    text-align: center;
+    margin-top: 120px;
+    margin-bottom: 10px;
+    border-bottom-width: 10px;
+    font-size: 70px;
+    font-family: "Times New Roman", Times, serif;
+}
+  
+.js-form {
+    color: #ecf0f1;
+    text-align: center;
+}
+  
+.js-toDoForm {
+    text-align: center;
+    padding-left: 13px;
+}
+  
+.js-greetings {
+    color: #ecf0f1;
+    text-align: center;
+    border-left-width: 12px;
+    padding-left: 18px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: x-large;
+    font-family: Georgia;
+}
+.js-toDoList {
+    color: #ecf0f1;
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+}
+
+input[type="text"] {
+    background: transparent; /*이럼 상자가 보이지 않게 된다.*/
+    border: none;
+    color: white;
+    font-size: 20px;
+    width: 20%;
+    padding: 12px 50px;
+    margin: 2px;
+    text-align: center;
+} /*반드시 코드 끝에 세미콜론(;) 을 붙여주자! 안그럼 인식못한다. */
+  
+::placeholder {
+    /* Firefox, Chrome, Opera */
+    color: white;
+    font-style: italic;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.parent {
+    text-align: center;
+}
+  
+.parent ul {
+    display: inline-block;
+    text-align: left;
+}
+  
+.parent li {
+    float: left;
+    padding: 2px 5px;
+    border: 1px solid black;
+}
+
+
+@keyframes fadeIn{
+    from {
+        opacity: 0;
+    }
+    to{
+        opacity : 1;
+    }
+}

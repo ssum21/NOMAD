@@ -1,0 +1,87 @@
+body {
+    background-repeat: repeat;
+    background-size: auto;
+}
+
+h2 {
+    color: #000000;
+    transition: color 0.5s ease-in-out;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 50px;
+    /* 컬러가 바뀔때 0.5초정도 시간을 두고 자연스럽게 바뀌게 하는 효과 */
+}
+
+
+#clock {
+    text-align: center;
+    margin-top: 120px;
+    margin-bottom: 10px;
+    border-bottom-width: 10px;
+    font-size: 70px;
+    font-family: "Times New Roman", Times, serif;
+}
+  
+#login-form {
+    color: #000000;
+    text-align: center;
+}
+  
+#todo-form {
+    text-align: center;
+    padding-left: 13px;
+	color: #000000;
+}
+  
+#greeting {
+    color: #ecf0f1;
+    text-align: center;
+    border-left-width: 12px;
+    padding-left: 18px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: x-large;
+    font-family: Georgia;
+}
+#todo-list {
+    color: #000000;
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+}
+
+input[type="text"] {
+    background: transparent; /*이럼 상자가 보이지 않게 된다.*/
+    border: none;
+    color: white;
+    font-size: 20px;
+    width: 20%;
+    padding: 12px 50px;
+    margin: 2px;
+    text-align: center;
+} /*반드시 코드 끝에 세미콜론(;) 을 붙여주자! 안그럼 인식못한다. */
+  
+::placeholder {
+    /* Firefox, Chrome, Opera */
+    color: white;
+    font-style: italic;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+#quote {
+    text-align: center;
+}
+  
+#weather {
+    text-align: left;
+}
+  
+@keyframes fadeIn{
+    from {
+        opacity: 0;
+    }
+    to{
+        opacity : 1;
+    }
+}
+
